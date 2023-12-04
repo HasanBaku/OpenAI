@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom'
+import Navbar from './navbar/navbar';
+import Home from './home/home';
+import Info from './info/info';
+import Openai from './openai/openai';
+import Cases from './cases/cases';
+import Library from './library/library';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Navbar />
+      <Routes>
+        <Route path='/home' element={Home}></Route>
+        <Route path='/info' element={Info}></Route>
+        <Route path='/openai' element={Openai}></Route>
+        <Route path='/cases' element={Cases}></Route>
+        <Route path='/library' element={Library}></Route>
+      </Routes>
+      <Home />
+      <Info />
+      <Openai />
+      <Cases />
+      <Library />
+
     </div>
-  );
+  )
 }
 
 export default App;
