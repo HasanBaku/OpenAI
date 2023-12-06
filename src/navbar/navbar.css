@@ -1,0 +1,153 @@
+header{
+    background: linear-gradient(to bottom right, #01264f 2%, #040c18 60%);
+    margin: 0; /* Remove default body margin */
+    height: 100%; /* Ensure the body takes up the full viewport height */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    padding: 25px 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left-header{
+    display: flex;
+    gap: 40px;
+}
+.left-header p{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.left-header nav{
+    display: flex;
+    align-items: center;
+}
+.left-header ul{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.left-header ul li{
+    cursor: pointer;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2em;
+}
+.sign-in{
+    cursor: pointer;
+}
+.sign-up{
+    cursor: pointer;
+    background-color: #ff4820;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.burgers-menu {
+    width: 35px;
+    display: none;
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    background: #0a2642;
+    border-radius: 10px;
+    right: 40px;
+    top: 100px;
+    padding: 40px 30px;
+    width: 130px;
+    z-index: 10000;
+    transition: transform 0.9s ease-in-out;
+}
+.mobile-menu nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.mobile-menu nav ul li{
+    cursor: pointer;
+}
+
+#sign-in{
+    display: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#sign-up{
+    display: none;
+    cursor: pointer;
+    background-color: #ff4820;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+.mobile-menu {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    header{
+        padding: 25px 70px;
+    }
+    .left-header nav{
+        display: none;
+    }
+    .burgers-menu{
+        display: block;
+    }
+}
+@media screen and (max-width: 700px) {
+    header{
+        padding: 25px 60px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .sign-in, .sign-up{
+        display: none;
+    }
+    header{
+        padding: 25px 35px 25px 35px;
+    }
+    .mobile-menu{
+        top: 75px;
+    }
+    #sign-in, #sign-up {
+        display: block;
+    }
+}

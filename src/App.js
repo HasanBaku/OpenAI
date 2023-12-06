@@ -9,11 +9,10 @@ import Library from './library/library';
 
 
 
-
 function App() {
   return (
     <div>
-      
+
       <Navbar />
       <Routes>
         <Route path='/home' element={Home}></Route>
@@ -23,10 +22,6 @@ function App() {
         <Route path='/library' element={Library}></Route>
       </Routes>
       <Home />
-      <Info />
-      <Openai />
-      <Cases />
-      <Library />
 
     </div>
   )
