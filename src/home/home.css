@@ -3,7 +3,6 @@ main{
     margin: 0; /* Remove default body margin */
      /* Ensure the body takes up the full viewport height */
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     height: 100%;
     color: #fff;
