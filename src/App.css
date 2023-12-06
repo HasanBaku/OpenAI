@@ -42,7 +42,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-html {
-    min-height: 100vh;
+html{
+	min-height: 100vh;
 }
