@@ -1,16 +1,17 @@
 main{
     background: linear-gradient(to bottom right, #01264f 5%, #040c18 50%);
     margin: 0; /* Remove default body margin */
-    /* Ensure the body takes up the full viewport height */
+     /* Ensure the body takes up the full viewport height */
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
     color: #fff;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    overflow: hidden;
 }
 .upper-section{
     display: flex;
