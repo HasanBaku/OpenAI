@@ -1,7 +1,7 @@
 main{
     background: linear-gradient(to bottom right, #01264f 5%, #040c18 50%);
     margin: 0; /* Remove default body margin */
-    height: 100%; /* Ensure the body takes up the full viewport height */
+    /* Ensure the body takes up the full viewport height */
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
