@@ -27,9 +27,7 @@ function Home() {
             <p>1,600 people requested access a visit in last 24 hours</p>
           </div>
         </div>
-        <div className="right-side">
-          <img src={Face} alt="" />
-        </div>
+       
         </div>
 
         <div className="down-section">
