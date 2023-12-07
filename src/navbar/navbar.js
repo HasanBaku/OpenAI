@@ -49,11 +49,11 @@ function Navbar() {
           <p>GPT-3</p>
           <nav>
             <ul>
-              <li><Link style={linkStyles} to="/">Home</Link></li>
-              <li><Link style={linkStyles} to="/info">What is GPT3</Link></li>
-              <li><Link style={linkStyles} to="/openai">Open AI</Link></li>
-              <li><Link style={linkStyles} to="/cases">Case Studies</Link></li>
-              <li><Link style={linkStyles} to="/library">Library</Link></li>
+              <li>< a href="#home" style={linkStyles}>Home</a></li>
+              <li><a href="#info" style={linkStyles}>What is GPT3</a></li>
+              <li><a href="#openai" style={linkStyles}>Open AI</a></li>
+              <li><a href="#cases" style={linkStyles}>Case Studies</a></li>
+              <li><a href="#library" style={linkStyles}>Library</a></li>
             </ul>
           </nav>
         </div>
@@ -69,11 +69,11 @@ function Navbar() {
       }}>
           <nav className='mobile-nav'>
             <ul>
-              <li onClick={closeMobile}><Link style={linkStyles} to="/">Home</Link></li>
-              <li onClick={closeMobile}><Link style={linkStyles} to="/info">What is GPT3</Link></li>
-              <li onClick={closeMobile}><Link style={linkStyles} to="/openai">Open AI</Link></li>
-              <li onClick={closeMobile}><Link style={linkStyles} to="/cases">Case Studies</Link></li>
-              <li onClick={closeMobile}><Link style={linkStyles} to="/library">Library</Link></li>
+              <li onClick={closeMobile}>< a href="#home" style={linkStyles}>Home</a></li>
+              <li onClick={closeMobile}>< a href="#info" style={linkStyles}>What is GPT3</a></li>
+              <li onClick={closeMobile}>< a href="#openai" style={linkStyles}>Open AI</a></li>
+              <li onClick={closeMobile}>< a href="#cases" style={linkStyles}>Case Studies</a></li>
+              <li onClick={closeMobile}>< a href="#library" style={linkStyles}>Library</a></li>
               <p onClick={closeMobile} id='sign-in'>Sign In</p>
               <p onClick={closeMobile} id='sign-up'>Sign up</p>
             </ul>

@@ -13,7 +13,7 @@ import Shopify from "../assets/shopify.png"
 function Home() {
   return (
     <main>
-      <section className='main-section'>
+      <section id='home' className='main-section'>
         <div className="upper-section">
         <div className="left-side">
           <h1>Let's Build Something amazing with GPT-3 OpenAI</h1>
