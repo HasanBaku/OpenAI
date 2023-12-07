@@ -112,4 +112,7 @@ hr{
     .what-is h3{
         font-size: 1.9em;
     }
+    .middle-part{
+        margin: 20px 0;
+    }
 }
