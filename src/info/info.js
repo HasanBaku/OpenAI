@@ -38,6 +38,54 @@ function Info() {
           </div>
         </div>
       </section>
+
+      <section className='future'>
+        <div className="future-container">
+          <div className="left-part-future">
+            <h3>The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h3>
+            <p>Request Early Access to Get Started</p>
+          </div>
+
+          <div className="middle-part-future">
+            <div className='desc'>
+              <div className="left-part-desc">
+                <hr />
+                <p>Improving end distrusts instantly</p>
+              </div>
+              <div className="right-part-desc">
+                <p className='right-desc'>From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.</p>
+              </div>
+            </div>
+            <div className='desc'>
+              <div className="left-part-desc">
+                <hr />
+                <p>Become the tended active</p>
+              </div>
+              <div className="right-part-desc">
+                <p className='right-desc'>Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.</p>
+              </div>
+            </div>
+            <div className='desc'>
+              <div className="left-part-desc">
+                <hr />
+                <p>Message or am nothing</p>
+              </div>
+              <div className="right-part-desc">
+                <p className='right-desc'>Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.</p>
+              </div>
+            </div>
+            <div className='desc'>
+              <div className="left-part-desc">
+                <hr />
+                <p>Really boy law county</p>
+              </div>
+              <div className="right-part-desc">
+                <p className='right-desc'>Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

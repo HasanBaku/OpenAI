@@ -58,6 +58,7 @@ hr{
 .middle-part p{
     color: #e3806e;
     text-align: right;
+    cursor: pointer;
 }
 
 .bottom-part{
@@ -79,6 +80,61 @@ hr{
     font-size: 0.9em;
 }
 
+.future{
+    background-color: #040c18;
+    padding: 30px 90px;
+}
+.future-container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+}
+.left-part-future h3{
+    font-size: 2.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ae67fa, #e3806e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-part-future p{
+    margin-top: 40px;
+    color: #e3806e;
+}
+.desc{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.left-part-desc p{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 200px;
+}
+.right-desc{
+    color: #5d95d1;
+    font-size: 0.9sem;
+    line-height: 1.3em;
+    width: 350px;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .future-container{
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .bottom-part{
         grid-template-columns: 1fr;
@@ -90,6 +146,10 @@ hr{
     .what-is{
         padding: 60px;
     }
+    .future{
+        padding: 20px 60px;
+    }
+
 }
 @media screen and (max-width: 720px) {
     .middle-part{
@@ -103,6 +163,15 @@ hr{
     .what-is{
         padding: 40px;
     }
+    .future{
+        padding: 30px 40px;
+    }
+    .left-part-desc p{
+        width: 100%;
+    }
+    .right-desc{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -111,5 +180,21 @@ hr{
     }
     .what-is h3{
         font-size: 1.9em;
+    }
+    .middle-part{
+        margin: 20px 0;
+    }
+    .left-part-future h3{
+        font-size: 1.8em;
+    }
+    .desc{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .left-part-desc p{
+        font-size: 1em;
+    }
+    .right-desc{
+        font-size: 0.8em;
     }
 }
