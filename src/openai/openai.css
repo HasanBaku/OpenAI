@@ -1,0 +1,117 @@
+.section-ai{
+    background-color: #040c18;
+    padding: 90px;
+    height: 100%;
+}
+.open-ai{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.vr{
+    width: 43vw;
+}
+.right-part{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    color: #fff;
+} 
+#upper{
+    color: #68e3ff;
+    font-size: 1.1em;
+}
+#upper-middle{
+    font-size: 2.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ae67fa, #e3806e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#bottom-middle{
+    color: #5d95d1;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+#bottom{
+    margin-top: 20px;
+    color: #e3806e;
+}
+.early-access{
+    background-image: linear-gradient(90deg, #ae67fa, #e3806e);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 100px 0px 0px 0px;
+}
+.early-left-part{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.early-left-part h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.early-right-part button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .open-ai{
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+    .vr{
+        width: 100%;
+    }
+    #bottom{
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .right-part{
+        padding-top: 30px;
+        gap: 20px;
+    }
+    .early-access{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section-ai{
+        padding: 20px 60px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .section-ai{
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #upper-middle{
+        font-size: 1.8em;
+    }
+}

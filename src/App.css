@@ -44,9 +44,9 @@ table {
 }
 
 html{
-	min-height: 100vh;
+	min-height: 100%;
+}
+body{
+	min-height: 100%;
 }
 
-html{
-	min-height: 100vh;
-}

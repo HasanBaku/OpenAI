@@ -17,7 +17,7 @@ function Info() {
           </div>
           <div className="middle-part">
             <h3 className='major-title'>The possibilities are beyond your imagination</h3>
-            <p className='library'>Explore the Library</p>
+            <p className='library-what'>Explore the Library</p>
           </div>
           <div className="bottom-part">
             <div className="left-bottom-part">

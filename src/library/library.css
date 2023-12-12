@@ -1,0 +1,93 @@
+.library{
+    background-color: #040c18;
+    padding: 30px 90px;
+    padding-bottom: 60px;
+}
+.library h3{
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ae67fa, #e3806e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px;
+    align-items: start;
+}
+.card-section img {
+    width: 100%;
+}
+.card-section p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.card-section h4{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.card-section button{
+    position: absolute;
+    bottom: 25px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.library-left-part{
+    height: 100%;
+}
+.library-right-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 100%;
+}
+
+.big-one, .upper-first, .upper-second, .down-first, .down-second{
+    background-color: #031b34;
+    height: 100%;
+    position: relative;
+}
+
+.text-area{
+    padding: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .library-right-part{
+        order: 0;
+    }
+    .library-left-part{
+        order: 1;
+        width: 47%;
+    }
+    .library{
+        padding: 30px 50px;
+    }
+    .library h3{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .library{
+        padding: 30px 40px;
+    }
+    .library-right-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .library-left-part{
+        width: 100%;
+    }
+}

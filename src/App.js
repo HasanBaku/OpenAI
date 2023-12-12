@@ -7,10 +7,17 @@ import Info from './info/info';
 import Openai from './openai/openai';
 import Cases from './cases/cases';
 import Library from './library/library';
+import Footer from './footer/footer'
 
 
 
 function App() {
+
+  var date = new Date();
+  var currentDate = date.getFullYear();
+
+
+
   return (
     <div>
       <Navbar />
@@ -23,7 +30,9 @@ function App() {
       </Routes>
       <Home />
       <Info />
-
+      <Openai />
+      <Library />
+      <Footer prop = {currentDate}/>
     </div>
   )
 }
