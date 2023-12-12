@@ -36,7 +36,7 @@ function Footer(props) {
             </div>
         </div>
 
-        <p>@{props.prop} GPT-3. All rights reserved.</p>
+        <p className='pro'>@{props.prop} GPT-3. All rights reserved.</p>
     </footer>
   )
 }

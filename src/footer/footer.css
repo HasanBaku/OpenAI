@@ -48,6 +48,12 @@ footer h3{
     margin-bottom: 15px;
 }
 
+.pro{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 1300px) {
     footer h3{
         font-size: 3em;
