@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.section `
-padding: 20px 10vw;
+padding: 20px 15vw;
 background-color: #0f111d;
 display: flex;
 justify-content: space-between;
@@ -79,10 +79,11 @@ ul img{
 }
 
 
-
+@media screen and (max-width: 1700px) {
+    padding: 20px 5vw;
+}
 
 @media screen and (max-width: 820px) {
-    padding: 20px 5vw;
     .right-header li{
         display:none;
     }
@@ -90,5 +91,67 @@ ul img{
         display: block;
     }
 }
+
+`;
+
+
+export const Homes = styled.section `
+padding: 20px 15vw;
+background-color: #0f111d;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-between;
+align-items: center;
+position: relative;
+
+
+.home-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 650px;
+}
+.discount{
+    color: #aeaeb3;
+    display:flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #2e2c2f 5%, #1e1d28 50%);
+    padding: 3px 0px 3px 15px;
+    border-radius: 10px;
+    width: 350px;
+    font-size: 1.1em;
+}
+.discount img{
+    width: 12%;
+}
+.discount span{
+    color: #fff;
+    padding: 5px
+}
+.title-section{
+    display: flex;
+    align-items: center;
+}
+.title-section h1{
+    font-size: 4em;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.title-section h1 span{
+    background: -webkit-linear-gradient(80deg, #3fbcd2, #daf6f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-right img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1700px) {
+    padding: 70px 0vw 40px 5vw;
+
+}
+
 
 `;

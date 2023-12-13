@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import {Header} from "../styles"
-import Logo from "../assets/logo.svg"
-import Burger from "../assets/text.png"
-import Close from "../assets/close.png"
+import {Header} from "../components/styles"
+import Logo from "../components/assets/logo.svg"
+import Burger from "../components/assets/text.png"
+import Close from "../components/assets/close.png"
 
 
 
