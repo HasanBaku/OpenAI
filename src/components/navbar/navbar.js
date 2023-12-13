@@ -37,7 +37,7 @@ function Navbar() {
         <div style={{ display: window.innerWidth < 820 && (click ? 'block' : 'none') }} className="right-header-mobile">
             <nav>
                 <ul>
-                    <li onClick={closeMobile}><a href="#">Home</a></li>
+                    <li onClick={closeMobile}><a href="#">Homies</a></li>
                     <li onClick={closeMobile}><a href="#">Features</a></li>
                     <li onClick={closeMobile}><a href="#">Product</a></li>
                     <li onClick={closeMobile}><a href="#">Clients</a></li>
